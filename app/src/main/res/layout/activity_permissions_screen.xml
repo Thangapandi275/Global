@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PermissionsScreen">
+
+   <androidx.core.widget.NestedScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Mandatory Permissions"
+               android:padding="20dp"
+               android:textSize="22dp"
+               android:textColor="@color/black"
+               android:textStyle="bold"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Dear User"
+               android:paddingLeft="20dp"
+               android:paddingRight="20dp"
+               android:textSize="18dp"
+               android:textColor="@color/black"
+               android:textStyle="bold"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/data_user"
+               android:paddingRight="20dp"
+               android:paddingLeft="20dp"
+               android:paddingTop="5dp"
+               android:textSize="14dp"
+               android:textColor="@color/black"
+               android:textStyle="bold"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="SMS"
+               android:paddingLeft="20dp"
+               android:paddingRight="20dp"
+               android:textSize="18dp"
+               android:textColor="@color/black"
+               android:textStyle="bold"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/sms_content"
+               android:paddingRight="20dp"
+               android:paddingLeft="20dp"
+               android:paddingTop="5dp"
+               android:textSize="14dp"
+               android:textColor="@color/black"
+               android:textStyle="bold"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Location"
+               android:paddingLeft="20dp"
+               android:paddingRight="20dp"
+               android:textSize="18dp"
+               android:textColor="@color/black"
+               android:textStyle="bold"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/location_content"
+               android:paddingRight="20dp"
+               android:paddingLeft="20dp"
+               android:paddingTop="5dp"
+               android:textSize="14dp"
+               android:textColor="@color/black"
+               android:textStyle="bold"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Camera"
+               android:paddingLeft="20dp"
+               android:paddingRight="20dp"
+               android:textSize="18dp"
+               android:textColor="@color/black"
+               android:textStyle="bold"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/camera_content"
+               android:paddingRight="20dp"
+               android:paddingLeft="20dp"
+               android:paddingTop="5dp"
+               android:textSize="14dp"
+               android:textColor="@color/black"
+               android:textStyle="bold"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Phone Storage"
+               android:paddingLeft="20dp"
+               android:paddingRight="20dp"
+               android:textSize="18dp"
+               android:textColor="@color/black"
+               android:textStyle="bold"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/phone_content"
+               android:paddingRight="20dp"
+               android:paddingLeft="20dp"
+               android:paddingTop="5dp"
+               android:textSize="14dp"
+               android:textColor="@color/black"
+               android:textStyle="bold"/>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_marginStart="40dp"
+               android:layout_marginTop="30dp"
+               android:layout_marginEnd="40dp"
+               android:layout_marginBottom="20dp"
+               android:background="@drawable/darkbutton"
+               android:gravity="center"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:id="@+id/btn_continue_onclick"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="20dp"
+                   android:textStyle="bold"
+                   android:textColor="@color/white"
+                   android:gravity="center"
+                   android:layout_gravity="center"
+                   android:text="Read &amp; accept"
+                   android:textSize="15dp" />
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+   </androidx.core.widget.NestedScrollView>
+
+
+
+</RelativeLayout>
