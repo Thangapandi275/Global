@@ -23,6 +23,8 @@ public class EnterotpActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_enterotp);
 
+//        Sample
+
         show_mobile_number = findViewById(R.id.show_mobile_number);
         resend_otp = findViewById(R.id.resend_otp);
         input_opt_number = findViewById(R.id.input_opt_number);
